@@ -1,3 +1,6 @@
+.idea
+*.http
+
 HELP.md
 .gradle
 build/
