@@ -14,3 +14,4 @@ pluginManagement {
 
 rootProject.name = "kotlin-practice"
 include("practice01-grammar")
+include("practice02-reactive")
