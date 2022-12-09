@@ -8,9 +8,14 @@ class Practice02 {
     fun should() {
         producer()
             .log()
-            .limitRate(10)
+            .limitRate(2)
             .doOnNext { println(it) }
             .blockLast()
+    }
+
+    @Test
+    fun should_2() {
+
     }
 
     private fun producer() = Flux.range(1, 100)
